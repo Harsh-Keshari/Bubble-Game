@@ -1,0 +1,103 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    background-color: rgb(158, 205, 182);
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#Title{
+    
+    font-size: 2xl;
+    margin-bottom: 15px;
+    border: 1px solid rgb(50, 128, 89);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#panel{
+    height: 80%;
+    width: 80%;
+    background-color: rgb(243, 250, 246);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#ptop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(50, 128, 89);
+    padding: 0px 20%;
+}
+
+.elem{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #fff;
+}
+.elem h2{
+    font-weight: 500px;
+    font-size: 22px;
+}
+
+.box{
+    color: rgb(50, 128, 89);
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: 600;
+    box-shadow: inset;
+}
+
+#pbtm{
+    display: flex;
+    justify-content:center ;
+    align-items: center ;
+    flex-wrap: wrap;
+    gap: 10px;
+    height: calc(100% - 100px);
+    width: 100%;
+    background-color:#fff;
+    padding: 20px;
+}
+
+.bubble{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(50, 128, 89);
+    color: #fff;
+    width: 53px;
+    height: 53px;
+    border-radius: 50%;
+    font-weight: 500;
+}
+
+.bubble:hover{
+    cursor:pointer;
+    background-color: rgb(34, 83, 58);;
+}
+
+
+#timer{
+    font-size: 3xl;
+}
